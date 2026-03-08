@@ -1,9 +1,14 @@
+import sys
+print("Python executable:", sys.executable)
+print("Python version:", sys.version)
+
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.datasets import imdb
 from tensorflow.keras.preprocessing import sequence
 from tensorflow.keras.models import load_model
 from tensorflow.keras.layers import Embedding, SimpleRNN, Dense
+
 
 word_index = imdb.get_word_index()
 reverse_word_index = {value: key for (key, value) in word_index.items()}
