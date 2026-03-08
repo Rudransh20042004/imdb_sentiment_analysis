@@ -1,7 +1,7 @@
 streamlit==1.25.0
 tensorflow==2.20.0
 numpy==1.26.0
-pandas==2.1.0
-rich==14.3.3
+rich==14.2.0
 markdown-it-py==2.2.0
 mdurl==0.1.2
+pygments==2.19.2
